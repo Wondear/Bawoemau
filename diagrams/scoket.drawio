@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-09T07:21:16.161Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="hWUnevIWbBCEA2pr7l4O" version="21.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-09T07:50:29.302Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="sjzlEyinbfwUopDham1m" version="21.0.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2329" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -37,7 +37,7 @@
         <mxCell id="ykLFlcjqPoqmRzT-I1UY-70" value="소켓의 상태를 관리한다&lt;br&gt;연결이 끊겼을 때 연결한다.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;horizontal=1;verticalAlign=top;" vertex="1" parent="ykLFlcjqPoqmRzT-I1UY-68">
           <mxGeometry y="30" width="170" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="ykLFlcjqPoqmRzT-I1UY-71" value="SocketListener&lt;br&gt;SocketConnector" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="ykLFlcjqPoqmRzT-I1UY-68">
+        <mxCell id="ykLFlcjqPoqmRzT-I1UY-71" value="SocketCreator&lt;br&gt;SocketListener&lt;br&gt;SocketConnector" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="ykLFlcjqPoqmRzT-I1UY-68">
           <mxGeometry x="170" y="30" width="130" height="130" as="geometry" />
         </mxCell>
         <mxCell id="ykLFlcjqPoqmRzT-I1UY-72" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
