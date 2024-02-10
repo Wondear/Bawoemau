@@ -1,0 +1,94 @@
+<mxfile host="app.diagrams.net" modified="2024-02-09T07:50:29.302Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="sjzlEyinbfwUopDham1m" version="21.0.8" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="2329" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="ykLFlcjqPoqmRzT-I1UY-49" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-563" y="40" width="300" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ykLFlcjqPoqmRzT-I1UY-50" value="SocketCreator" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ykLFlcjqPoqmRzT-I1UY-49">
+          <mxGeometry width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ykLFlcjqPoqmRzT-I1UY-51" value="소켓을 생성한다&lt;br&gt;소켓을 포트에 바인드한다&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;포드&amp;nbsp;listening을 시작한다&lt;br&gt;port" style="rounded=0;whiteSpace=wrap;html=1;align=left;horizontal=1;verticalAlign=top;" vertex="1" parent="ykLFlcjqPoqmRzT-I1UY-49">
+          <mxGeometry y="30" width="170" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ykLFlcjqPoqmRzT-I1UY-57" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="ykLFlcjqPoqmRzT-I1UY-49">
+          <mxGeometry x="170" y="30" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ykLFlcjqPoqmRzT-I1UY-60" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-780" y="425" width="300" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ykLFlcjqPoqmRzT-I1UY-61" value="SocketListener" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ykLFlcjqPoqmRzT-I1UY-60">
+          <mxGeometry width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ykLFlcjqPoqmRzT-I1UY-62" value="socket&lt;br&gt;client ip&lt;br&gt;클라이언트의 연결을 대기한다" style="rounded=0;whiteSpace=wrap;html=1;align=left;horizontal=1;verticalAlign=top;" vertex="1" parent="ykLFlcjqPoqmRzT-I1UY-60">
+          <mxGeometry y="30" width="170" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ykLFlcjqPoqmRzT-I1UY-63" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="ykLFlcjqPoqmRzT-I1UY-60">
+          <mxGeometry x="170" y="30" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ykLFlcjqPoqmRzT-I1UY-68" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-563" y="230" width="300" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ykLFlcjqPoqmRzT-I1UY-69" value="SocketStateManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ykLFlcjqPoqmRzT-I1UY-68">
+          <mxGeometry width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ykLFlcjqPoqmRzT-I1UY-70" value="소켓의 상태를 관리한다&lt;br&gt;연결이 끊겼을 때 연결한다.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;horizontal=1;verticalAlign=top;" vertex="1" parent="ykLFlcjqPoqmRzT-I1UY-68">
+          <mxGeometry y="30" width="170" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ykLFlcjqPoqmRzT-I1UY-71" value="SocketCreator&lt;br&gt;SocketListener&lt;br&gt;SocketConnector" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="ykLFlcjqPoqmRzT-I1UY-68">
+          <mxGeometry x="170" y="30" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ykLFlcjqPoqmRzT-I1UY-72" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-790" y="830" width="300" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ykLFlcjqPoqmRzT-I1UY-73" value="SocketTransmitter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ykLFlcjqPoqmRzT-I1UY-72">
+          <mxGeometry width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ykLFlcjqPoqmRzT-I1UY-74" value="socket&lt;br&gt;message&lt;br&gt;메시지를 송신한다." style="rounded=0;whiteSpace=wrap;html=1;align=left;horizontal=1;verticalAlign=top;" vertex="1" parent="ykLFlcjqPoqmRzT-I1UY-72">
+          <mxGeometry y="30" width="170" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ykLFlcjqPoqmRzT-I1UY-75" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="ykLFlcjqPoqmRzT-I1UY-72">
+          <mxGeometry x="170" y="30" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ykLFlcjqPoqmRzT-I1UY-76" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-370" y="830" width="300" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ykLFlcjqPoqmRzT-I1UY-77" value="SocketReceiver" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ykLFlcjqPoqmRzT-I1UY-76">
+          <mxGeometry width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ykLFlcjqPoqmRzT-I1UY-78" value="socket&lt;br&gt;메시지를 수신하다." style="rounded=0;whiteSpace=wrap;html=1;align=left;horizontal=1;verticalAlign=top;" vertex="1" parent="ykLFlcjqPoqmRzT-I1UY-76">
+          <mxGeometry y="30" width="170" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ykLFlcjqPoqmRzT-I1UY-79" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="ykLFlcjqPoqmRzT-I1UY-76">
+          <mxGeometry x="170" y="30" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ykLFlcjqPoqmRzT-I1UY-80" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-563" y="630" width="300" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ykLFlcjqPoqmRzT-I1UY-81" value="SocketMessageManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ykLFlcjqPoqmRzT-I1UY-80">
+          <mxGeometry width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ykLFlcjqPoqmRzT-I1UY-82" value="소켓의 송/수신을 관리한다" style="rounded=0;whiteSpace=wrap;html=1;align=left;horizontal=1;verticalAlign=top;" vertex="1" parent="ykLFlcjqPoqmRzT-I1UY-80">
+          <mxGeometry y="30" width="170" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ykLFlcjqPoqmRzT-I1UY-83" value="SocketTransmitter&lt;br&gt;SocketReceiver" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="ykLFlcjqPoqmRzT-I1UY-80">
+          <mxGeometry x="170" y="30" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ykLFlcjqPoqmRzT-I1UY-84" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-360" y="425" width="300" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ykLFlcjqPoqmRzT-I1UY-65" value="SocketConnector" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="ykLFlcjqPoqmRzT-I1UY-84">
+          <mxGeometry width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ykLFlcjqPoqmRzT-I1UY-66" value="socket&lt;br&gt;server ip, port&lt;br&gt;클라이언트에서 서버로 연결을 시도한다." style="rounded=0;whiteSpace=wrap;html=1;align=left;horizontal=1;verticalAlign=top;container=0;" vertex="1" parent="ykLFlcjqPoqmRzT-I1UY-84">
+          <mxGeometry y="30" width="170" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ykLFlcjqPoqmRzT-I1UY-67" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;container=0;" vertex="1" parent="ykLFlcjqPoqmRzT-I1UY-84">
+          <mxGeometry x="170" y="30" width="130" height="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
