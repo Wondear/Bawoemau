@@ -18,7 +18,7 @@ public class DefaltPlayMove : MonoBehaviour {
     //Animator animator;
 
     //입력받을 키 wasd? or 화살표,
-    KeyCode warp, exit, skill1, skill2 , talk;
+    public KeyCode  exit, skill1, skill2 , talk;
     string jump, horiz;
 
     private void Awake() {
@@ -88,8 +88,7 @@ public class DefaltPlayMove : MonoBehaviour {
         //Debug.Log("Hit distance: " + rayHit.distance);
         if (rayHit.collider != null && rigid.velocity.y < 0) {
             if (rayHit.distance <0.9f) {
-                //animator.SetBool("isClimb", false);
-                //animator.SetBool("isJumping", false);
+                //animator.SetBool("landing", true); //착지모션
                 jumpCnt = jumpCount;
             }
         }
