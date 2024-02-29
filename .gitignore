@@ -73,6 +73,7 @@ crashlytics-build.properties
 
 */Library/
 */UserSettings/
+*/Temp/*
 
 # Ignored files
 *.log
