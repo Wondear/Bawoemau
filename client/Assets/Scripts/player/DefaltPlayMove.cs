@@ -10,6 +10,7 @@ public class DefaltPlayMove : MonoBehaviour {
     private int jumpCnt;
     private bool jumped  =false; //해당 키입력으로 점프를 했는지 확인
     private bool freeze =false; // 캐릭터 조작 금지상태
+    private bool isSkilling = false; //스킬 사용중인상태
     public float jumpPower;
     public float maxSpeed;
 
@@ -19,6 +20,7 @@ public class DefaltPlayMove : MonoBehaviour {
 
     //입력받을 키 wasd? or 화살표,
     public KeyCode  exit, skill1, skill2 , talk;
+    public playerSkillForm[] skills = new playerSkillForm[3];
     string jump, horiz;
 
     private void Awake() {
@@ -41,8 +43,6 @@ public class DefaltPlayMove : MonoBehaviour {
     private void FixedUpdate() {
         if (!freeze) { 
         //if (Input.GetButtonDown(warp)) {}
-
-
         //점프, 다중 점프가 가능하게함 
         if (Input.GetButton(jump)&& !jumped&&jumpCnt > 0) {
             jumped = true;
@@ -99,10 +99,11 @@ public class DefaltPlayMove : MonoBehaviour {
         return freeze; 
     }
 
-    public void MoveToScene(string path) {
-        SceneManager.LoadScene(path);
-    
+    public void MovePosition() {
     }
-    public void useSkill() { }
+    public void useSkill(int skillNum) {
+        if (skills[skillNum].returnOk())
+            skills[skillNum].action();
+    }
 
 }

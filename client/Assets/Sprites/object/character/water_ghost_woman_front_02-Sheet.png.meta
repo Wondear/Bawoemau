@@ -226,7 +226,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      water_ghost_woman_front_02-Sheet_0: -3292634922878407
+      water_ghost_woman_front_02-Sheet_1: -3896405557567003830
+      water_ghost_woman_front_02-Sheet_2: 3211026900131878643
+      water_ghost_woman_front_02-Sheet_3: -2252552110664740597
+      water_ghost_woman_front_02-Sheet_4: -5357831172441202649
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
