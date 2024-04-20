@@ -19,8 +19,6 @@ public class WarpGate : interactionObject
     public override void action() {
         base.action();
         SceneManager.LoadScene(WarpScene);
-
-
     }
 
 }

@@ -149,12 +149,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 149393822}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b61b0a5b8075eb14190d9a5172d88a27, type: 3}
+  m_Script: {fileID: 11500000, guid: d180421d0fbd76a46900ad4967a36194, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   jumpPower: 20
-  maxSpeed: 8
-  rigid: {fileID: 149393824}
+  maxSpeed: 20
+  rigid: {fileID: 0}
+  exit: 0
+  skill1: 0
+  skill2: 0
+  talk: 0
 --- !u!50 &149393824
 Rigidbody2D:
   serializedVersion: 4
@@ -241,12 +245,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 8725583791009165418, guid: 80b75b8368cb74d47b8193ee83fc5ccd, type: 3}
+  m_Sprite: {fileID: 8725583791009165418, guid: cfdb405f21a2cb149a078cba934e8ef2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.25, y: 0.66}
+  m_Size: {x: 0.625, y: 1.65}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -299,7 +303,7 @@ Animator:
   m_GameObject: {fileID: 149393822}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4ec8f971a6cff55498bbbd46af0eda20, type: 2}
+  m_Controller: {fileID: 9100000, guid: 8c60f0e2bce1c824287769e5c6c36b1f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -969,11 +973,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0b8148035ad2e64ca1ccfe0fa4ebf9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  actionKey: Vertical
-  guide: {fileID: 1117170353}
-  objectRange: {fileID: 1554140482}
-  isPlayer: 0
-  WarpScene: Warptest
 --- !u!4 &1554140479
 Transform:
   m_ObjectHideFlags: 0
