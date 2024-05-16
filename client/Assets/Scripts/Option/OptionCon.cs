@@ -5,12 +5,12 @@ public class OptionCon : MonoBehaviour {
     public GameObject OptionMenu;
     public int[] Volums; //= new int[3];
     public int MasterVolum, BackVolum, EfxVolum;
-    GetOption Options;
-    public GetOption.OptionData Data;
+    GameManager Options;
+    public GameManager.OptionData Data;
     // Start is called before the first frame update
     private void Awake() {
-        Options = FindObjectOfType<GetOption>();
-        Data = Options.GetComponent<GetOption>().optionData;
+        Options = FindObjectOfType<GameManager>();
+        Data = Options.GetComponent<GameManager>().optionData;
         OptionMenu = Resources.Load<GameObject>("Prefabs/OptionPanel");
 
 

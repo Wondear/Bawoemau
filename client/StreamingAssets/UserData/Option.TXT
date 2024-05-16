@@ -1,0 +1,21 @@
+{
+  "FullScreen": true,
+  "Volum": {
+    "Master": {
+      "Value": 80,
+      "Muted": false
+    },
+    "Bg": {
+      "Value": 50,
+      "Muted": false
+    },
+    "Efx": {
+      "Value": 50,
+      "Muted": false
+    }
+  },
+  "Resolution": [
+    1920,
+    1080
+  ]
+}

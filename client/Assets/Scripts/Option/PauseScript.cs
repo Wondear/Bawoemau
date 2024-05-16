@@ -4,11 +4,11 @@ using UnityEngine.UI;
 
 public class PauseScript : MonoBehaviour {
     Canvas canvas;
-    GetOption defaltEventComponent;
+    GameManager defaltEventComponent;
     // Start is called before the first frame update
     void Start() {
         this.transform.GetComponent<Canvas>();
-        defaltEventComponent = FindObjectOfType<GetOption>();
+        defaltEventComponent = FindObjectOfType<GameManager>();
     }
 
     public void OpenMenual() { //게임 설명 열기

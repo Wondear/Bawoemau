@@ -9,7 +9,7 @@ public class VolumValue : MonoBehaviour {
     public OptionCon option;
     public Text percent;
     public int number;
-    public GetOption.Volum volumData;
+    public GameManager.Volum volumData;
     //public AudioSource audio;
     // Start is called before the first frame update
     void Start() {
